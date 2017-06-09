@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // Database configuration with mongoose
-mongoose.connect("mongodb://localhost/MMAnews");
+mongoose.connect(":pelmljrsjbm8n3ea8g5p6m2jg3@ds115712.mlab.com:15712/heroku_3qpcwfls");
 var db = mongoose.connection;
 
 // Show any mongoose errors
